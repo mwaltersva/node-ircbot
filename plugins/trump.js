@@ -1,6 +1,8 @@
 'use strict';
 const http = require('http');
 
+module.exports = trump;
+
 function trump(client) {
   client.addListener('message', trumpQuote);
 
