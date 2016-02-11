@@ -1,4 +1,5 @@
 'use strict';
+
 const fs = require('fs');
 
 module.exports = fs.readdirSync(__dirname + '/').filter((file) => {

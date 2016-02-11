@@ -2,10 +2,10 @@
 
 module.exports = [
   {
-    server: 'irc.server',
-    nick: 'mynick',
+    server: 'irc.server.com',
+    nick: 'ircnodebot',
     channels: [
-        '#achannel'
+        '#ircnodebot'
     ]
   }
 ];
