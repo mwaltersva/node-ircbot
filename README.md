@@ -14,9 +14,10 @@ Just plop a file with a .js extension in
     ./plugins
 
 The file should export an object with the following properties:
->    regexp
->    action
-    
+>  regexp
+
+>  action
+
 regexp
 ------
 A string containing the expression that the bot will respond to. This will be used as the
