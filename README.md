@@ -14,8 +14,8 @@ Just plop a file with a .js extension in
     ./plugins
 
 The file should export an object with the following properties:
-    regexp
-    action
+>    regexp
+>    action
     
 regexp
 ------
@@ -25,8 +25,10 @@ expressions are evaluated globally and case-insensitive.
 
 action
 ------
-THis is the function that will be called if the expression matches. It recieves the following
+THis is the function that will be called if the expression matches. It receives the following
 parameters: client (node-irc object), nick (string), to (string), text (string), message (string)
-To say something, call client.say('channel/nick', 'message')
+To say something, call
+
+>   client.say('channel/nick', 'message')
 
 Check the node-irc docs for more info on the client object.
